@@ -1,6 +1,6 @@
 # Web Development
 
-These are web pages, CSS files, and snippets of jQuery which are meant to be publicly available. They are examples of work can do. 
+These are web pages, CSS files, and snippets of jQuery which are meant to be publicly available. They are examples of work I can do. 
 
 ## Getting Started
 

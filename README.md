@@ -1,6 +1,6 @@
 # Web Development
 
-These are web pages, CSS files, and snippets of jQuery which are meant to be publicly available. They are examples of work I can do. 
+These are web pages, CSS files, and snippets of jQuery which are meant to be publicly available. They are examples of work I can do.
 
 ## Getting Started
 
@@ -29,3 +29,15 @@ Step 4) Download all files using: git pull origin master
 Since these files are all static HTML and CSS at this time, not much additional development work is needed to make them functional. However, customizing them to your environment will certainly be required.
 
 This project is a simple HTML and CSS page. It's responsive, SEO friendly, has no JavaScript, and works across multiple browsers.
+
+#### JQuery 
+
+This project uses the basic_html project's format and extends upon it. Each page has a JQuery utility/tool with functionality. Each of those are detailed and outlined below. 
+
+##### accordion
+
+This page has an accordion UI menu which expands and collapses when clicked. 
+
+##### autocomplete
+
+This page has an autocomplete widget which will automatically fill in NFL team names if you start typing them.

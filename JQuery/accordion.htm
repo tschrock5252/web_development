@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+
+<!-- Begin page header -->
+<head>
+        <title>JQuery Accordion Menu</title>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+        <meta name="description" content="JQuery Accordion Menu" />
+        <meta name="keywords" content="JQuery Accordion Menu" />
+        <meta name="robots" content="index, follow" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/screen.css" media="screen" />
+
+    <!-- Begin References to External CSS and Scripts -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" media="screen" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- End References to External CSS and Scripts -->
+
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+    </script>
+
+</head>
+<!-- End page header -->
+
+<!-- Begin Page Body -->
+<body>
+<!-- Begin Page Title and Menu Layout -->
+<div id="header">
+        <h1>JQuery Accordion Menu</h1>
+        <h2>A JQuery Accordion Menu nested within a simple web page.</h2>
+        <ul>
+                <li><a href="./accordion_menu.htm" class="active">JQuery <span>Accordion Menu</span></a></li>
+                <li><a href="./autocomplete.htm" class="active">JQuery <span>AutoComplete</span></a></li>
+        </ul>
+</div>
+<!-- End Page Title and Menu Layout -->
+
+<!-- Begin 3 Column Layout -->
+<div class="column_mask three_column">
+        <div class="column_mid">
+                <div class="column_left">
+            <!-- Center Column Start -->
+                        <div class="column1">
+                <h2>The Accordion Menu</h2>
+                <hr width="100%" />
+
+                <!-- Accordion Menu Start -->
+                <div id="accordion" style="border:1px;">
+                  <h3>Accordion Section 1</h3>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <h3>Accordion Section 2</h3>
+                  <div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                    </p>
+                  </div>
+                  <h3>Accordion Section 3</h3>
+                  <div>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </p>
+                    <ul>
+                      <li>List item one</li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Accordion Menu End -->
+
+                        </div>
+            <!-- Center Column End -->
+
+            <!-- Left Column Start -->
+                        <div class="column2">
+                <h2>Left Column Content</h2>
+                <hr width="100%" />
+                <p>This is where left column content would be displayed.</p>
+                        </div>
+            <!-- Left Column End -->
+
+            <!-- Right Column Start -->
+                        <div class="column3">
+                <h2>Right Column Content</h2>
+                <hr width="100%" />
+                                <p>This is where right column content would be displayed.</p>
+                        </div>
+            <!-- Right Column End -->
+                </div>
+        </div>
+</div>
+<!-- End 3 Column Layout -->
+
+<!-- Begin Page Footer -->
+<div id="footer">
+    <p>This is where the page footer would be displayed.</p>
+</div>
+<!-- End Page Footer -->
+
+</body>
+<!-- End Page Body -->
+
+</html>

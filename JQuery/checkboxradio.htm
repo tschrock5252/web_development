@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+
+<!-- Begin page header -->
+<head>
+    <title>JQuery Checkboxradio Widget</title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="description" content="JQuery Checkboxradio Widget" />
+    <meta name="keywords" content="JQuery Checkboxradio Widget" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css" media="screen" />
+    
+    <!-- Begin References to External CSS and Scripts -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- End References to External CSS and Scripts -->
+
+    <script>
+    $( function() {
+      $( "input" ).checkboxradio();
+    } );
+    </script>
+
+</head>
+<!-- End page header -->
+
+<!-- Begin Page Body -->
+<body>
+<!-- Begin Page Title and Menu Layout -->
+<div id="header">
+    <h1>JQuery Checkboxradio Widget</h1>
+    <h2>A JQuery Checkboxradio Widget nested within a simple web page.</h2>
+    <ul>
+        <li><a href="./accordion.htm" class="active">JQuery <span>Accordion Menu</span></a></li>
+        <li><a href="./autocomplete.htm" class="active">JQuery <span>AutoComplete</span></a></li>
+        <li><a href="./checkboxradio.htm" class="active">JQuery <span>Checkboxradio</span></a></li>
+    </ul>
+</div>
+<!-- End Page Title and Menu Layout -->
+
+<!-- Begin 3 Column Layout -->
+<div class="column_mask three_column">
+    <div class="column_mid">
+        <div class="column_left">
+            <!-- Center Column Start -->
+            <div class="column1">
+                <h2>Checkboxradio Widget</h2>
+                <hr width="100%" />
+                <p>This widget enhances the standard checkbox and radio input element to make them themeable buttons with appropriate hover and active styles.</p>
+                
+                <!-- Checkboxradio Widget Start -->
+                <div class="widget">
+                  <h1>Checkbox and radio buttons</h1>
+                 
+                  <h2>Radio Buttons</h2>
+                  <fieldset>
+                    <legend>Select a Stay Location: </legend>
+                    <label for="radio-1">Cleveland</label>
+                    <input type="radio" name="radio-1" id="radio-1">
+                    <label for="radio-2">Boston</label>
+                    <input type="radio" name="radio-1" id="radio-2">
+                    <label for="radio-3">Los Angeles</label>
+                    <input type="radio" name="radio-1" id="radio-3">
+                    <label for="radio-4">Seattle</label>
+                    <input type="radio" name="radio-1" id="radio-4">
+                    <label for="radio-5">Houston</label>
+                    <input type="radio" name="radio-1" id="radio-5">
+                  </fieldset>
+                 
+                  <h2>Checkboxes</h2>
+                  <fieldset>
+                    <legend>Room and Hotel Ratings: </legend>
+                    <label for="checkbox-1">1 Star Rooms and Hotels</label>
+                    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+                    <label for="checkbox-2">2 Star Rooms and Hotels</label>
+                    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+                    <label for="checkbox-3">3 Star Rooms and Hotels</label>
+                    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+                    <label for="checkbox-4">4 Star Rooms and Hotels</label>
+                    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+                    <label for="checkbox-5">5 Star Rooms and Hotels</label>
+                    <input type="checkbox" name="checkbox-5" id="checkbox-5">
+                  </fieldset>
+                 
+                  <h2>Checkboxes nested in labels</h2>
+                  <fieldset>
+                    <legend>Bed Type: </legend>
+                    <label for="checkbox-nested-1">2 Double
+                      <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+                    </label>
+                    <label for="checkbox-nested-2">2 Queen
+                      <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+                    </label>
+                    <label for="checkbox-nested-3">1 Queen, 1 Double
+                      <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+                    </label>
+                    <label for="checkbox-nested-4">1 Queen
+                      <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+                    </label>
+                    <label for="checkbox-nested-5">1 King
+                      <input type="checkbox" name="checkbox-nested-5" id="checkbox-nested-5">
+                    </label>
+                  </fieldset>
+                </div>
+                <!-- Checkboxradio Widget End -->
+                
+            </div>
+            <!-- Center Column End -->
+            
+            <!-- Left Column Start -->
+            <div class="column2">
+                <h2>Left Column Content</h2>
+                <hr width="100%" />
+                <p>This is where left column content would be displayed.</p>
+            </div>
+            <!-- Left Column End -->
+            
+            <!-- Right Column Start -->
+            <div class="column3">
+                <h2>Right Column Content</h2>
+                <hr width="100%" />
+                <p>This is where right column content would be displayed.</p>
+            </div>
+            <!-- Right Column End -->
+        </div>
+    </div>
+</div>
+<!-- End 3 Column Layout -->
+
+<!-- Begin Page Footer -->
+<div id="footer">
+    <p>This is where the page footer would be displayed.</p>
+</div>
+<!-- End Page Footer -->
+
+</body>
+<!-- End Page Body -->
+
+</html>
+

@@ -41,3 +41,7 @@ This page has an accordion UI menu which expands and collapses when clicked.
 ##### autocomplete
 
 This page has an autocomplete widget which will automatically fill in NFL team names if you start typing them.
+
+##### checkboxradio
+
+This page has a checkboxradio widget which enhances the standard checkbox and radio input element to make them themeable buttons with appropriate hover and active styles.
